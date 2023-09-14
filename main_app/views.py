@@ -1,11 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
-finches = [
-    {'species': 'House Finch', 'habitat': 'generalist', 'population trend': 'increasing'},
-    {'species': 'Lawrence Goldfinch', 'habitat': 'chaparral', 'population trend': 'decreasing'}
-]
-
 def home(request):
   return render(request, 'home.html')
 
